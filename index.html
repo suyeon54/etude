@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에뛰드</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <div class="header_top">
+            <div class="hamburger">
+                <span class="material-symbols-outlined mo_menu">
+                    menu
+                </span>
+                <div class="mode">
+                    <span class="material-symbols-outlined sun">
+                        light_mode
+                    </span>
+                    <span class="material-symbols-outlined moon">
+                        dark_mode
+                    </span>
+                </div>
+            </div>
+
+    
+            <h1><a href="#"><img src="images/logo2.svg" alt=""></a></h1>
+    
+            <div class="spotmenu">
+                <a href="#">로그인</a>
+                <a href="#">회원가입</a>
+                <a href="#">장바구니</a>
+                <a href="#">찜상품</a>
+                <a href="#">마이페이지</a>
+                <a href="#">배송조회</a>
+                <a href="#">고객센터</a>
+            </div>
+    
+            <div class="search_box">
+                <input type="text" placeholder="검색">
+                <input type="image" src="images/btn_search.png" alt="확인">
+            </div>
+        </div>
+
+        <nav>
+            <ul class="gnb">
+                <li>
+                    <a href="#">아이</a>
+                    <ul class="lnb">
+                        <li><a href="#">마스카라</a></li>
+                        <li><a href="#">틴트</a></li>
+                        <li><a href="#">아이브로우</a></li>
+                        <li><a href="#">쿠션</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">폼클렌저</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">립</a>
+                    <ul class="lnb">
+                        <li><a href="#">마스카라</a></li>
+                        <li><a href="#">틴트</a></li>
+                        <li><a href="#">아이브로우</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">페이스</a>
+                    <ul class="lnb">
+                        <li><a href="#">마스카라</a></li>
+                        <li><a href="#">폼클렌저</a></li>
+                        <li><a href="#">비비</a></li>
+                        <li><a href="#">쿠션</a></li>
+                        <li><a href="#">이벤트</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">네일</a>
+                </li>
+                <li>
+                    <a href="#">스킨케어</a>
+                </li>
+                <li>
+                    <a href="#">마스크 ·팩 </a>
+                </li>
+                <li>
+                    <a href="#">클렌저</a>
+                </li>
+                <li>
+                    <a href="#">바디</a>
+                </li>
+                <li>
+                    <a href="#">헤어</a>
+                </li>
+                <li>
+                    <a href="#">툴</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="lnb_bg"></div>
+    </header>
+
+    <div id="visual">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/visual1.jpg" alt="">
+                    <div class="text_box">
+                        <strong>
+                            디어 달링 오일 틴트1
+                        </strong>
+                        <div class="small">
+                            <span>풍부한 과즙을 머금은 듯 촉촉한 오일 보습 틴트</span>
+                        </div>
+                        <a href="#">자세히보기</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/visual2.jpg" alt="">
+                    <div class="text_box">
+                        <strong>
+                            디어 달링 오일 틴트2
+                        </strong>
+                        <div class="small">
+                            <span>풍부한 과즙을 머금은 듯 촉촉한 오일 보습 틴트</span>
+                        </div>
+                        <a href="#">자세히보기</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/visual3.jpg" alt="">
+                    <div class="text_box">
+                        <strong>
+                            디어 달링 오일 틴트3
+                        </strong>
+                        <div class="small">
+                            <span>풍부한 과즙을 머금은 듯 촉촉한 오일 보습 틴트</span>
+                        </div>
+                        <a href="#">자세히보기</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div id="section_box">
+        <section id="section1">
+            <div class="centerbox1200">
+                <h2><span>BEST ITEM</span></h2>
+
+                <!-- 보이는 목록은 8개로 설정 -->
+                <ul class="cont">
+                    <!-- 등록된 데이터가 없는경우 -->
+                    <li class="no-data">
+                        등록된 데이터가 없습니다.
+                    </li>
+                    <!-- 등록된 데이터가 없는경우 여기까지 -->
+
+
+
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_01.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_02.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon_pop">인기상품</span>
+                                <span class="icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_03.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon_pop">인기상품</span>
+                                <span class="icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_04.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon_pop">인기상품</span>
+                                <span class="icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_05.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon_pop">인기상품</span>
+                                <span class="icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_06.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon_pop">인기상품</span>
+                                <span class="icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_07.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon_pop">인기상품</span>
+                                <span class="icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_08.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon_pop">인기상품</span>
+                                <span class="icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="section2">
+            <div class="centerbox1200">
+                <h2>
+                    <span><em>50%</em> SALE</span>
+                </h2>
+
+
+                <!-- Swiper -->
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper cont">
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/section01_01.png" alt="">
+                                <div class="spec">
+                                    <strong>
+                                        디어 달링 오일 틴트
+                                    </strong>
+                                    <div class="icon_box">
+                                        <span class="icon_pop">인기상품</span>
+                                        <span class="icon_soldout">매진임박</span>
+                                    </div>
+                                    <p class="price"><span>25,900</span>원</p>
+                                    <p class="review">리뷰<span>2,900</span>개</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/section01_02.png" alt="">
+                                <div class="spec">
+                                    <strong>
+                                        디어 달링 오일 틴트
+                                    </strong>
+                                    <div class="icon_box">
+                                        <span class="icon_pop">인기상품</span>
+                                        <span class="icon_soldout">매진임박</span>
+                                    </div>
+                                    <p class="price"><span>25,900</span>원</p>
+                                    <p class="review">리뷰<span>2,900</span>개</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/section01_03.png" alt="">
+                                <div class="spec">
+                                    <strong>
+                                        디어 달링 오일 틴트
+                                    </strong>
+                                    <div class="icon_box">
+                                        <span class="icon_pop">인기상품</span>
+                                        <span class="icon_soldout">매진임박</span>
+                                    </div>
+                                    <p class="price"><span>25,900</span>원</p>
+                                    <p class="review">리뷰<span>2,900</span>개</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/section02_04.png" alt="">
+                                <div class="spec">
+                                    <strong>
+                                        디어 달링 오일 틴트
+                                    </strong>
+                                    <div class="icon_box">
+                                        <span class="icon_pop">인기상품</span>
+                                        <span class="icon_soldout">매진임박</span>
+                                    </div>
+                                    <p class="price"><span>25,900</span>원</p>
+                                    <p class="review">리뷰<span>2,900</span>개</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/section01_04.png" alt="">
+                                <div class="spec">
+                                    <strong>
+                                        디어 달링 오일 틴트
+                                    </strong>
+                                    <div class="icon_box">
+                                        <span class="icon_pop">인기상품</span>
+                                        <span class="icon_soldout">매진임박</span>
+                                    </div>
+                                    <p class="price"><span>25,900</span>원</p>
+                                    <p class="review">리뷰<span>2,900</span>개</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/section01_05.png" alt="">
+                                <div class="spec">
+                                    <strong>
+                                        디어 달링 오일 틴트
+                                    </strong>
+                                    <div class="icon_box">
+                                        <span class="icon_pop">인기상품</span>
+                                        <span class="icon_soldout">매진임박</span>
+                                    </div>
+                                    <p class="price"><span>25,900</span>원</p>
+                                    <p class="review">리뷰<span>2,900</span>개</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="images/section01_06.png" alt="">
+                                <div class="spec">
+                                    <strong>
+                                        디어 달링 오일 틴트
+                                    </strong>
+                                    <div class="icon_box">
+                                        <span class="icon_pop">인기상품</span>
+                                        <span class="icon_soldout">매진임박</span>
+                                    </div>
+                                    <p class="price"><span>25,900</span>원</p>
+                                    <p class="review">리뷰<span>2,900</span>개</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="section3">
+            <div class="centerbox1200">
+                <h2><span>NEW ITEM</span></h2>
+
+                <!-- 보이는 목록은 8개로 설정 -->
+                <ul class="cont">
+                    <!-- 등록된 데이터가 없는경우 -->
+                    <li class="no-data">
+                        등록된 데이터가 없습니다.
+                    </li>
+                    <!-- 등록된 데이터가 없는경우 여기까지 -->
+
+
+
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_01.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon_pop">인기상품</span>
+                                <span class="icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_02.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_04.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_05.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_04.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_06.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_05.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_03.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="section4">
+            <div class="centerbox1200">
+                <a href="#">
+                    <img src="images/banner.jpg" alt="선물코너 바로가기">
+                </a>
+            </div>
+        </section>
+        
+        <section id="section3">
+            <div class="centerbox1200">
+                <h2><span>NEW ITEM</span></h2>
+
+                <!-- 보이는 목록은 8개로 설정 -->
+                <ul class="cont">
+                    <!-- 등록된 데이터가 없는경우 -->
+                    <li class="no-data">
+                        등록된 데이터가 없습니다.
+                    </li>
+                    <!-- 등록된 데이터가 없는경우 여기까지 -->
+
+
+
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_01.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon_pop">인기상품</span>
+                                <span class="icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_02.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_04.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_05.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_04.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_06.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_05.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/section01_03.png" alt="">
+                            <strong>
+                                디어 달링 오일 틴트
+                            </strong>
+                            <div class="icon_box">
+                                <span class="icon icon_pop">인기상품</span>
+                                <span class="icon icon_soldout">매진임박</span>
+                            </div>
+                            <p class="price"><span>25,900</span>원</p>
+                            <p class="review">리뷰<span>2,900</span>개</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="centerbox1200">
+
+        </div>
+    </footer>
+
+    <!-- 최근 본 상품 -->
+
+    <div class="recent_prod">
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="images/section01_01.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/section01_01.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/section01_01.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/section01_01.png" alt="">
+                </a>
+            </li>
+        </ul>
+        <a href="#" class="gotop">
+            <span class="material-symbols-outlined">
+arrow_drop_up
+</span>
+        </a>
+    </div>
+
+
+    <script src="script/jquery-3.7.1.js"></script>
+    <script src="script/action.js"></script>
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    $('.swiper-slide').eq(0).find('.text_box').addClass('on');
+    
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 0,
+      speed: 1000,
+      loop:true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+        on: {
+            slideChangeTransitionEnd: function () {
+                $('.text_box').removeClass('on');
+                $('.swiper-slide').eq(this.activeIndex).find('.text_box').addClass('on')
+            }
+        }
+    });
+
+
+    var swiper = new Swiper(".mySwiper2", {
+        slidesPerView:4,
+        spaceBetween: 30,
+        speed: 1000,
+        loop:true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        }
+    });
+  </script>
+</body>
+</html>
