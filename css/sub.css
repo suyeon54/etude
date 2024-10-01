@@ -1,8 +1,11 @@
+body {min-height: 101vh;}
+
 /* login */
 .header_sub {
   height: 100px;
   position: relative;
 }
+
 .header_sub h1 img {width: 100px; }
 .header_sub .header_top {}
 .header_sub .header_top .spotmenu {}
